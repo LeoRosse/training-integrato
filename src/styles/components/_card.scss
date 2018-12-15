@@ -89,8 +89,8 @@
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          rgba($color-violet-medium, 0.8),
-          rgba($color-violet-dark, 0.8)
+          rgba($color-tertiary-light, 0.8),
+          rgba($color-tertiary-dark, 0.8)
         ),
         url("/images/relax-frontale-web.jpg");
     }
@@ -251,6 +251,9 @@
   -moz-perspective: 150rem; //per farlo lavorare anche in firefox
   position: relative;
   height: 50rem;
+  &__salute{
+    height: 60rem;
+  }
 
   &__side {
     height: 50rem;
@@ -266,6 +269,12 @@
 
     &--front {
       background-color: $color-white;
+    }
+    &__salute{
+      height: 68rem;
+    }
+    &__BIA{
+      height: 62rem;
     }
   }
 
@@ -298,39 +307,49 @@
     ); //per farlo lavorare sui browser
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-
+    &__compCorp{
+      background-blend-mode: color; //non funziona in explorer... cmq pazzesco! provare tutti i filtri!
+      &--2{
+        background-blend-mode: hard-light; //non funziona in explorer... cmq pazzesco! provare tutti i filtri!
+      }
+    }
     &--1 {
-      background-image: linear-gradient(
+      background-image: /*  linear-gradient(
           to right bottom,
           $color-secondary-light,
           $color-secondary-dark
-        ),
-        url("/images/sport-frontale-1-web.jpg");
+        ), */
+        url("/images/sport_arancio_3.jpg");
+
     }
 
     &--2 {
-      background-image: linear-gradient(
+      background-image: /* linear-gradient(
           to right bottom,
           $color-tertiary-light,
           $color-tertiary-dark
-        ),
-        url("/images/preparazione-atletica-1.jpg");
+        ), */
+        url("/images/preparazione_atletica_arancio.jpg");
     }
 
     &--3 {
-      background-image: linear-gradient(
+      background-image: /* linear-gradient(
           to right bottom,
           $color-primary-light,
           $color-primary-dark
-        ),
-        url("/images/recupero-funzionale-2.jpg");
+        ), */
+        url("/images/recupero-funzionale-arancio.jpg");
     }
     &--4 {
-      background-image: url("/images/alimentazione-consapevole-3.jpg");
+      background-image: linear-gradient(
+        to right bottom,
+        $color-primary-light,
+        $color-primary-dark
+      ),url("/images/alimentazione-consapevole-3.jpg");
       background-blend-mode: multiply; //non funziona in explorer... cmq pazzesco! provare tutti i filtri!
     }
     &--5 {
-      background-image: url("/images/training_integrato-web.jpg");
+      background-image: url("/images/training integrato_verde.jpg");
     }
     &--6 {
       background-image: linear-gradient(
@@ -339,6 +358,22 @@
           $color-tertiary-dark
         ),
         url("/images/bia-card-1.jpg");
+    }
+    &--7 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-violet-medium,
+          $color-violet-dark
+        ),
+        url("/images/composizionecorporea.jpg");
+    }
+    &--8 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-violet-medium,
+          $color-violet-dark
+        ),
+        url("/images/ppg_buono.jpg");
     }
   }
 
@@ -467,8 +502,8 @@
       background-position: bottom;
       background-image: linear-gradient(
           to right bottom,
-          rgba($color-violet-medium, 0.5),
-          rgba($color-violet-dark, 0.5)
+          rgba($color-tertiary-light, 0.5),
+          rgba($color-tertiary-dark, 0.5)
         ),
         url("/images/massaggio-olistico-web.jpg");
       background-blend-mode: soft-light; //non funziona in explorer... cmq pazzesco! provare tutti i filtri!
@@ -477,8 +512,8 @@
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          rgba($color-violet-medium, 0.5),
-          rgba($color-violet-dark, 0.5)
+          rgba($color-tertiary-light, 0.5),
+          rgba($color-tertiary-dark, 0.5)
         ),
         url("/images/massaggio.jpg");
       background-blend-mode: overlay; //non funziona in explorer... cmq pazzesco! provare tutti i filtri!

@@ -28,7 +28,7 @@ class LandingPage extends Component {
                     <div className="popup__right">
                         <h3 className="heading-tertiary u-margin-bottom-small">
                             <b>Percorso:</b>
-                </h3>
+                        </h3>
                         <div className="paragraph">
                             <ul className="paragraph__list">
                                 <li className="paragraph__item">Colloquio Iniziale</li>
@@ -39,7 +39,7 @@ class LandingPage extends Component {
                         </div>
                         <h3 className="heading-tertiary u-margin-bottom-small">
                             <b>Al termine della consulenza vengono indicati:</b>
-                </h3>
+                        </h3>
                         <div className="paragraph">
                             <ul className="paragraph__list">
                                 <li className="paragraph__item">Consigli per un sano stile di vita</li>
@@ -48,7 +48,7 @@ class LandingPage extends Component {
                                 <li className="paragraph__item">Indicazione per una adeguata attività fisica</li>
                             </ul>
                         </div>
-                        <a href="/contact" className="btn btn--green" style={{float:'right'}}>Contatta</a>
+                        <a href="/contact" className="btn btn--green" style={{ float: 'right' }}>Contatta</a>
                     </div>
                 </div>
             </Modal>
@@ -71,14 +71,11 @@ class LandingPage extends Component {
                     <section className="section-about">
                         <div className="u-center-text u-margin-bottom-big">
                             <h2 className="heading-secondary">
-                                Scienze Motorie - Naturopatia
+                                Scienze Motorie <br /> Naturopatia
                         </h2>
                         </div>
                         <div className="row">
-                            <h3 className="heading-tertiary u-margin-bottom-small">
-                                Training Integrato
-                            </h3>
-                            <p className="paragraph">
+                            {/*                            <p className="paragraph">
                                 E’ un percorso dedicato al raggiungimento e al
                                 mantenimento di un buono stato di salute e di forma fisica.
                                 Le fondamenta si basano su un corretto stile di vita, su una
@@ -95,9 +92,10 @@ class LandingPage extends Component {
                                 lo stato nutrizionale della persona per modulare
                                 eventuali squilibri alimentari e sviluppare un programma
                                 di attività fisica mirata.
-                            </p>
-                            <span className="buttonText buttonPopup" onClick={this.modalHandler}>Scopri di più &rarr;</span>
-                            {this.renderModal()}
+        </p>*/}
+                            <p className="paragraph"><i>Il metodo Training Integrato ci permette di pianificare in maniera approfondita la strategia di intervento da 
+                            adottare per raggiungere uno stile di vita che esprima le proprie potenzialità a 360 gradi.</i></p>
+                            <Link to="/salute" className="buttonText buttonPopup">Scopri di più &rarr;</Link>
                         </div>
                     </section>
 
@@ -133,7 +131,7 @@ class LandingPage extends Component {
                             <div className="col-1-of-3">
                                 <div className="card">
                                     <div className="card__side card__side--front">
-                                        <a href="/sport" className="card__side card__side--link"><div className="card__picture card__picture--1">
+                                        <Link to="/sport" className="card__side card__side--link"><div className="card__picture card__picture--1">
                                             &nbsp;
                                 </div>
                                             <h4 className="card__heading">
@@ -147,7 +145,7 @@ class LandingPage extends Component {
                                                     <li>Preparazione Atletica</li>
                                                     <li>Rieducazione Funzionale</li>
                                                 </ul>
-                                            </div></a>
+                                            </div></Link>
                                     </div>
                                     <div className="card__side card__side--back card__side--back-1">
                                         <div className="card__cta">
@@ -162,7 +160,7 @@ class LandingPage extends Component {
                             <div className="col-1-of-3">
                                 <div className="card">
                                     <div className="card__side card__side--front">
-                                        <a href="/relax" className="card__side card__side--link"><div className="card__picture card__picture--2">
+                                        <Link to="/relax" className="card__side card__side--link"><div className="card__picture card__picture--2">
                                             &nbsp;
                                 </div>
                                             <h4 className="card__heading">
@@ -175,7 +173,7 @@ class LandingPage extends Component {
                                                     <li>Massaggio Olistico</li>
                                                     <li>Trattamento Riequilibrante</li>
                                                 </ul>
-                                            </div></a>
+                                            </div></Link>
                                     </div>
                                     <div className="card__side card__side--back card__side--back-2">
                                         <div className="card__cta">
@@ -189,22 +187,22 @@ class LandingPage extends Component {
                             </div>
                             <div className="col-1-of-3">
                                 <div className="card">
-                                    <div className="card__side card__side--front">
-                                        <a href="/salute" className="card__side card__side--link" ><div className="card__picture card__picture--3">
+                                    <Link to="/salute" className="card__side card__side--link" ><div className="card__side card__side--front">
+                                        <div className="card__picture card__picture--3">
                                             &nbsp;
                                 </div>
-                                            <h4 className="card__heading">
-                                                <span className="card__heading-span">
-                                                    Salute
+                                        <h4 className="card__heading">
+                                            <span className="card__heading-span">
+                                                Salute
                                     </span>
-                                            </h4>
-                                            <div className="card__details">
-                                                <ul>
-                                                    <li>Training Integrato</li>
-                                                    <li>Alimentazione Consapevole</li>
-                                                </ul>
-                                            </div></a>
-                                    </div>
+                                        </h4>
+                                        <div className="card__details">
+                                            <ul>
+                                                <li>Training Integrato</li>
+                                                <li>Alimentazione Consapevole</li>
+                                            </ul>
+                                        </div>
+                                    </div></Link>
                                     <div className="card__side card__side--back card__side--back-3">
                                         <div className="card__cta">
                                             {/*                                     <div className="card__price-box">
@@ -305,7 +303,7 @@ class LandingPage extends Component {
                                 <a href="https://web.uniroma2.it/"><img src="images/logo-TorVergata.png" alt="CNM Logo" className="footer__logo__vergata" /></a>
                             </div>
                             <p className="footer__copyright">
-                                Built by <a href="" className="footer__link"> Leonardo Rosseti</a> {/* for his site
+                                Built by <a href="" className="footer__link"> Leonardo Rosseti</a>, Graphics by  <a href="" className="footer__link">Jonas Schmedtmann</a>{/* for his site
                         <a href="" className="footer__link">Advanced Site</a> Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for
                         both personal and commercial use, but NOT to claim it as your own design. A credit to the original author
                         is of cours highly appreciated! */}

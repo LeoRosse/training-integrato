@@ -25,8 +25,8 @@ const Salute = () => (
             </div>
             <div className="row">
                 <div className="col-1-of-2">
-                    <div className="card--sport">
-                        <div className="card--sport__side card--sport__side--front">
+                    <div className="card--sport card--sport__salute">
+                        <div className="card--sport__side card--sport__side__salute card--sport__side--front">
                             <div className="card--sport__picture card--sport__picture--5">
                                 &nbsp;
                             </div>
@@ -37,21 +37,22 @@ const Salute = () => (
             </h4>*/}
                             <div className="card--sport__details">
                                 <p>
-                                    Dopo una prima presentazione libera da parte del cliente, il colloquio verrà indirizzato in modo mirato per conoscere le peculiarità dell’individuo, attraverso domande specifiche si affronteranno sintomi e caratteristiche psico-fisiche, per valutarne la costituzione ed intervenire di conseguenza.
-                                Si integra poi il colloquio con una valutazione della composizione corporea (BIA)
-                                <br />
-                                    Al termine della Consulenza Naturopatica  verranno indicati:
+                                E’ un percorso dedicato al raggiungimento ed al mantenimento di un buono stato di salute e di forma fisica.
+                                Lo stato di salute è fusione, equilibrio e armonia tra le componenti fisica-strutturale, biochimica-funzionale e psicologica-motivazionale di una persona.
+                                Le fondamenta del Training Integrato si basano su un corretto stile di vita, su una alimentazione consapevole e su una attività fisica specifica.
+                                Il colloquio viene indirizzato in modo mirato per conoscere le peculiarità dell’ individuo;
+                                domande specifiche vanno ad evidenziare alcuni sintomi e le sue caratteristiche psico-fisiche, per valutare la costituzione ed individuare le metodologie di intervento.
+                                Il percorso si integra con una valutazione della composizione corporea (BIA) che permette di determinare lo stato nutrizionale e l’attività metabolica della persona.
+                                Si analizzano successivamente la funzionalità del Sistema Nervoso Autonomo e la variabilità della frequenza cardiaca (PPG Stress Flow), dati essenziali per recuperare un buon bilanciamento dei ritmi circadiani, associato ad un aumento della capacità reattiva, rigenerativa e di regolazione dell’organismo.
+                                Questi i presupposti necessari per garantire risultati su composizione corporea, funzionalità e benessere psico-fisico.
                                 </p>
-                                <ul className="feature-box__list">
-                                    <li>Consigli per un sano stile di vita, Regole generali per una corretta alimentazione, Suggerimenti di tecniche da praticare in casa, Indicazioni per una adeguata attività fisica</li>
-                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col-1-of-2">
                     <div className="card--sport">
-                        <div className="card--sport__side card--sport__side--front">
+                        <div className="card--sport__side card--sport__side__salute card--sport__side--front">
                             <div className="card--sport__picture card--sport__picture--4">
                                 &nbsp;
                             </div>
