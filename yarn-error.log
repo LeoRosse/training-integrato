@@ -1,17 +1,17 @@
 Arguments: 
-  C:\laragon\bin\nodejs\node.exe C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run dev-server
+  C:\Program Files\nodejs\node.exe C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
 
 PATH: 
-  C:\Users\Leonardo\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Leonardo\AppData\Roaming\npm;C:\laragon\bin\cmder\vendor\telnet;C:\laragon\bin\cmder\vendor\putty;C:\Users\Leonardo\AppData\Roaming\Composer\vendor\bin;C:\laragon\bin\mysql\mariadb-10.1.19-win32\bin;C:\laragon\bin\php\php-7.0.12-Win32-VC14-x86;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.23-win32-VC14\bin;C:\laragon\bin\redis\redis-2.8.17;C:\laragon\bin\memcached\memcached-1.4.5;C:\laragon\bin\nodejs;C:\laragon\bin\yarn\bin;C:\laragon\bin\nginx\nginx-1.10.1;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\sublime;C:\laragon\bin\ngrok;C:\laragon\bin\sendmail;C:\laragon\bin\winscp;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw32\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\putty;C:\laragon\bin\cmder\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;"C:\Program Files\Git\usr\bin";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Leonardo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft VS Code\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Leonardo\AppData\Local\Microsoft\WindowsApps;C:\Users\Leonardo\AppData\Roaming\npm;C:\Users\Leonardo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Heroku\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
+  C:\Varie\cmder_mini\bin;C:\Varie\cmder_mini\vendor\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Leonardo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Leonardo\AppData\Local\Microsoft\WindowsApps;C:\Users\Leonardo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Heroku\bin;C:\Users\Leonardo\AppData\Local\Android\Sdk\platform-tools;C:\Users\Leonardo\AppData\Local\Android\Sdk\tools;C:\Users\Leonardo\AppData\Roaming\npm;C:\Users\Leonardo\AppData\Local\atom\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Varie\cmder_mini
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  6.9.4
+  10.11.0
 
 Platform: 
-  win32 ia32
+  win32 x64
 
 npm manifest: 
   {
@@ -30,7 +30,7 @@ npm manifest:
     },
     "dependencies": {
       "babel-cli": "6.24.1",
-      "babel-core": "6.25.0",
+      "babel-core": "^6.25.0",
       "babel-loader": "7.1.1",
       "babel-plugin-transform-class-properties": "6.24.1",
       "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -43,7 +43,7 @@ npm manifest:
       "firebase": "^4.10.1",
       "history": "4.7.2",
       "moment": "2.18.1",
-      "node-sass": "4.5.3",
+      "node-sass": "^4.5.3",
       "normalize.css": "7.0.0",
       "numeral": "2.0.6",
       "raf": "3.3.2",
@@ -6216,18 +6216,11 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: Command failed.
-  Exit code: 3221225786
-  Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c webpack-dev-server
-  Directory: C:\Users\Leonardo\Desktop\SITI\training-integrato
-  Output:
-  
-      at ProcessTermError.Error (native)
-      at ProcessTermError.MessageError (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
-      at new ProcessTermError (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
-      at ChildProcess.<anonymous> (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
-      at emitTwo (events.js:106:13)
-      at ChildProcess.emit (events.js:191:7)
-      at maybeClose (internal/child_process.js:877:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+  Error: Found incompatible module
+      at new MessageError (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at checkOne (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62444:11)
+      at Object.check (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62463:5)
+      at C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Leonardo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
